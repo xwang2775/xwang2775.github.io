@@ -4,8 +4,8 @@ collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'CHI 25'
+date: 2025-02-17
+venue: "Conference on Human Factors in Computing Systems (CHI) '25"
 paperurl: 'https://arxiv.org/abs/2502.17898'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
