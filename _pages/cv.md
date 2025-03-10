@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="background-color: black; color: white; padding: 10px;">
-  You can download my full curriculum vitae <a href="https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link" style="color: #4db6ac;">here</a>
-</div>
+You can download my full curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link)
+
+<iframe src="https://docs.google.com/viewer?srcid=1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF&pid=explorer&efh=false&a=v&chrome=false&embedded=true" 
+        style="width: 100%; height: 700px; border: none;" 
+        frameborder="0">
+</iframe>
