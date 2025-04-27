@@ -20,8 +20,13 @@ You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtp
 
 ## Recent Publications
 
+- **LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support**  
+  Conference on Human Factors in Computing Systems (CHI) '25  
+  [Paper](https://arxiv.org/abs/2503.13340) | [Project Page](/publication/2024-02-18-paper-title-number-4)
+
 - **VeriPlan: Integrating Formal Verification and LLMs into End-User Planning**  
   Conference on Human Factors in Computing Systems (CHI) '25  
   [Paper](https://arxiv.org/abs/2502.17898) | [Project Page](/publication/2024-02-17-paper-title-number-4)
 
 *For a complete list of my publications, please visit my [Publications](/publications/) page.*
+
