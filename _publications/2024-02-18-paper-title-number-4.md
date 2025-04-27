@@ -2,7 +2,7 @@
 title: "LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2024-02-18-paper-title-number-4
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-03-17
 venue: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25)"
