@@ -20,7 +20,7 @@ You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtp
 
 ## Updates
 
-- Apr 2025 - I will be presenting at the Human Factors in Computing Systems Conference (CHI) '25, at Yokohama, Japan. Here is information about the [talk](https://programs.sigchi.org/chi/2025/program/content/194261), and [link](https://arxiv.org/abs/2503.13340) to the paper **LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support**.
+- Apr 2025 - I will be presenting at the Human Factors in Computing Systems Conference (CHI) '25, at Yokohama, Japan. Here is information about the [poster](https://programs.sigchi.org/chi/2025/program/content/194261), and [link](https://arxiv.org/abs/2503.13340) to the paper **LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support**.
 
 - **LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support**  
   Conference on Human Factors in Computing Systems (CHI) '25  
