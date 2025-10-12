@@ -9,13 +9,13 @@ redirect_from:
 
 Hi, I'm Xinyu Jessica Wang (王昕雨)! 👋
 
-I’m an undergraduate & incoming PhD student at UW–Madison 🦡, passionate about Human-centered AI. I’m grateful to be working with [Bilge Mutlu](https://bmutlu.github.io/) and for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) (Check out their works—you won’t regret it!).
+I’m a first year PhD student at UW–Madison 🦡, passionate about Human-centered AI. I'm interested in designing adaptive AI agents that learn to collaborate and adapt through human interaction. I’m grateful to be working with [Bilge Mutlu](https://bmutlu.github.io/) and for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) (Check out their works—you won’t regret it!).
 
 I’m incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
 
 📣 I’m actively looking for summer internships Fall 2026!
 
-You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link).
+You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) and resume [here](https://drive.google.com/file/d/1Ir6GZuWwl9bAq5P-yutLSYN825rxpYeT/view?usp=sharing).
 
 
 ## Updates
