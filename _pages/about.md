@@ -19,7 +19,7 @@ I’m incredibly thankful to the amazing people who have inspired and guided me 
 
 📣 I’m actively looking for summer internships 2026!
 
-You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) and resume [here](https://drive.google.com/file/d/1Ir6GZuWwl9bAq5P-yutLSYN825rxpYeT/view?usp=sharing).
+You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) and resume [here](https://drive.google.com/file/d/1eRLjWy8_IqefaqRYR2e8pL8wLER2pRYB/view?usp=share_link).
 
 
 ## Updates
