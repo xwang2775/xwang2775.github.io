@@ -2,12 +2,16 @@
    CUSTOM STYLES
    ========================================================================== */
 
-/* Color scheme: refined academic blue, replacing the default teal */
+/* Color scheme: vibrant teal on a warm soft background */
 :root {
-  --global-link-color: #3066BE;
-  --global-link-color-hover: #1D4E9B;
-  --global-link-color-visited: #5a8cd4;
-  --accent-rgb: 48, 102, 190;
+  --global-link-color: #0097a7;
+  --global-link-color-hover: #006064;
+  --global-link-color-visited: #4db6c1;
+  --global-bg-color: #f7fafa;
+}
+
+body {
+  background-color: #f7fafa;
 }
 
 /* ==========================================================================
@@ -54,8 +58,8 @@ body,
   align-items: center;
   gap: 7px;
   padding: 6px 14px;
-  background: #f5f7fb;
-  border: 1px solid rgba(48, 102, 190, 0.18);
+  background: #fff;
+  border: 1px solid rgba(0, 151, 167, 0.22);
   border-radius: 6px;
   font-size: 0.84em;
   color: var(--global-text-color);
@@ -70,53 +74,7 @@ body,
 }
 
 /* ==========================================================================
-   Research area cards
-   ========================================================================== */
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
-  gap: 14px;
-  margin: 1.2em 0 2em;
-}
-
-.research-card {
-  padding: 1.1em 1.2em 1em;
-  border: 1px solid var(--global-border-color);
-  border-radius: 10px;
-  border-top: 3px solid var(--global-link-color);
-  background: #fff;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.research-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(48, 102, 190, 0.12);
-}
-
-.rc-icon {
-  font-size: 1.25em;
-  color: var(--global-link-color);
-  margin-bottom: 0.5em;
-}
-
-.rc-title {
-  font-weight: 600;
-  font-size: 0.88em;
-  color: var(--global-text-color);
-  margin-bottom: 0.35em;
-  line-height: 1.3;
-}
-
-.rc-desc {
-  font-size: 0.78em;
-  color: var(--global-text-color-light);
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* ==========================================================================
-   Research Interest Tags (kept for optional use)
+   Research Interest Tags
    ========================================================================== */
 
 .research-tags {
@@ -129,9 +87,9 @@ body,
 .research-tag {
   display: inline-block;
   padding: 5px 14px;
-  background: rgba(48, 102, 190, 0.07);
+  background: rgba(0, 151, 167, 0.07);
   color: var(--global-link-color);
-  border: 1px solid rgba(48, 102, 190, 0.22);
+  border: 1px solid rgba(0, 151, 167, 0.25);
   border-radius: 20px;
   font-size: 0.83em;
   font-weight: 500;
@@ -141,98 +99,73 @@ body,
 }
 
 /* ==========================================================================
-   Vertical Timeline (News & Updates)
+   News Items
    ========================================================================== */
 
-.timeline {
-  position: relative;
-  padding-left: 28px;
-  margin-top: 0.8em;
+.news-item {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--global-border-color);
+  align-items: flex-start;
 }
 
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 9px;
-  top: 10px;
-  bottom: 10px;
-  width: 2px;
-  background: linear-gradient(
-    to bottom,
-    var(--global-link-color),
-    rgba(48, 102, 190, 0.1)
-  );
-  border-radius: 1px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 1.6em;
-}
-
-.timeline-item:last-child {
+.news-item:last-of-type {
+  border-bottom: none;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -23px;
-  top: 5px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2.5px solid var(--global-link-color);
-  box-shadow: 0 0 0 2px rgba(48, 102, 190, 0.2);
-}
-
-.timeline-date {
-  font-size: 0.73em;
-  font-weight: 700;
+.news-date {
+  flex-shrink: 0;
+  min-width: 80px;
+  font-size: 0.74em;
+  font-weight: 600;
   color: var(--global-link-color);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: 0.25em;
+  background: rgba(0, 151, 167, 0.08);
+  border: 1px solid rgba(0, 151, 167, 0.22);
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 3px;
+  white-space: nowrap;
 }
 
-.timeline-content {
-  font-size: 0.94em;
+.news-content {
+  flex: 1;
+  font-size: 0.95em;
   line-height: 1.55;
 }
 
-.timeline-content p {
-  margin: 0 0 0.2em;
+.news-content p {
+  margin: 0 0 0.25em;
 }
 
-.tl-venue {
-  font-size: 0.84em;
+.news-venue {
+  font-size: 0.85em;
   color: var(--global-text-color-light);
   font-style: italic;
-  margin: 0.15em 0 0.3em;
+  margin-top: 2px;
 }
 
-.tl-links {
+.news-links {
   display: flex;
   gap: 1em;
+  margin-top: 0.4em;
   flex-wrap: wrap;
 }
 
-.tl-links a {
-  font-size: 0.82em;
+.news-links a {
+  font-size: 0.83em;
   font-weight: 500;
   color: var(--global-link-color);
   text-decoration: none;
-  border: 1px solid rgba(48, 102, 190, 0.3);
-  padding: 2px 9px;
-  border-radius: 4px;
-  transition: background 0.15s, color 0.15s;
 }
 
-.tl-links a:hover {
-  background: var(--global-link-color);
-  color: #fff;
-  text-decoration: none;
+.news-links a:hover {
+  text-decoration: underline;
 }
 
 /* ==========================================================================
