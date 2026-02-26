@@ -1,0 +1,185 @@
+/* ==========================================================================
+   CUSTOM STYLES
+   ========================================================================== */
+
+/* Color scheme: refined academic blue, replacing the default teal */
+:root {
+  --global-link-color: #3066BE;
+  --global-link-color-hover: #1D4E9B;
+  --global-link-color-visited: #5a8cd4;
+}
+
+/* ==========================================================================
+   Typography: Inter font
+   ========================================================================== */
+
+body,
+.page__content p,
+.page__content li,
+.archive__item p,
+.author__bio {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   Section headings on content pages
+   ========================================================================== */
+
+.page__content h2 {
+  border-bottom: 2px solid var(--global-link-color) !important;
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-text-color);
+  padding-bottom: 0.4em;
+  margin-top: 2em;
+}
+
+/* ==========================================================================
+   Research Interest Tags
+   ========================================================================== */
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1.2em 0 1.6em;
+}
+
+.research-tag {
+  display: inline-block;
+  padding: 5px 14px;
+  background: rgba(48, 102, 190, 0.07);
+  color: var(--global-link-color);
+  border: 1px solid rgba(48, 102, 190, 0.22);
+  border-radius: 20px;
+  font-size: 0.83em;
+  font-weight: 500;
+  text-decoration: none !important;
+  letter-spacing: 0.01em;
+  cursor: default;
+}
+
+/* ==========================================================================
+   News Timeline
+   ========================================================================== */
+
+.news-item {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--global-border-color);
+  align-items: flex-start;
+}
+
+.news-item:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.news-date {
+  flex-shrink: 0;
+  min-width: 80px;
+  font-size: 0.74em;
+  font-weight: 600;
+  color: var(--global-link-color);
+  background: rgba(48, 102, 190, 0.08);
+  border: 1px solid rgba(48, 102, 190, 0.2);
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+
+.news-content {
+  flex: 1;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+.news-content p {
+  margin: 0 0 0.25em;
+}
+
+.news-venue {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.news-links {
+  display: flex;
+  gap: 1em;
+  margin-top: 0.4em;
+  flex-wrap: wrap;
+}
+
+.news-links a {
+  font-size: 0.83em;
+  font-weight: 500;
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+
+.news-links a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Publication items
+   ========================================================================== */
+
+.archive__item {
+  border-left: 3px solid transparent;
+  padding-left: 1em;
+  transition: border-color 0.2s ease;
+}
+
+.archive__item:hover {
+  border-left-color: var(--global-link-color);
+}
+
+.archive__item-title a {
+  text-decoration: none;
+  color: var(--global-text-color);
+}
+
+.archive__item-title a:hover {
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+
+.pub-venue {
+  font-size: 0.88em;
+  color: var(--global-text-color-light);
+  margin: 0.1em 0 0.3em;
+}
+
+.pub-citation {
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+  margin: 0.3em 0;
+}
+
+.pub-links {
+  margin-top: 0.3em;
+}
+
+.pub-links a {
+  font-size: 0.85em;
+  font-weight: 500;
+  margin-right: 1.2em;
+  color: var(--global-link-color);
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
