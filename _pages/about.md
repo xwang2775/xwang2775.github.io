@@ -24,12 +24,9 @@ I'm grateful to work with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Pr
 
 <div class="research-tags">
   <span class="research-tag">Agentic AI</span>
-  <span class="research-tag">Human-Computer Interaction</span>
-  <span class="research-tag">LLM Fine-Tuning</span>
-  <span class="research-tag">RAG</span>
-  <span class="research-tag">DPO</span>
+  <span class="research-tag">Human-AI Interaction</span>
   <span class="research-tag">Formal Verification</span>
-  <span class="research-tag">User Studies</span>
+  <span class="research-tag">Education</span>
 </div>
 
 
