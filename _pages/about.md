@@ -21,7 +21,7 @@ My current research is supported by Honda Research Institute USA (HRI-US).
   <span class="status-badge"><i class="fas fa-briefcase"></i> Open to Summer 2026 Internships</span>
 </div>
 
-I'm grateful to be working with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu) for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
+I'm grateful to work with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu), and for the mentorship of senior students [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
 
 You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) and resume [here](https://drive.google.com/file/d/1eRLjWy8_IqefaqRYR2e8pL8wLER2pRYB/view?usp=share_link).
 
