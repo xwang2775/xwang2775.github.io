@@ -13,16 +13,6 @@ I'm a first year PhD student in Computer Science at UW–Madison 🦡. My resear
 
 More broadly, I aim to develop AI agents that augment human decision-making, coordinate with people and other agents, and ultimately reshape workflows by reducing cognitive and operational burden while preserving human oversight and control.
 
-<div class="research-tags">
-  <span class="research-tag">Agentic AI</span>
-  <span class="research-tag">Human-Computer Interaction</span>
-  <span class="research-tag">LLM Fine-Tuning</span>
-  <span class="research-tag">RAG</span>
-  <span class="research-tag">DPO</span>
-  <span class="research-tag">Formal Verification</span>
-  <span class="research-tag">User Studies</span>
-</div>
-
 I'm grateful to be working with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu) for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
 
 📣 I'm actively looking for summer internships 2026!
