@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Xinyu Jessica Wang (王昕雨)! 👋
 
-I'm a first year PhD student in Computer Science at UW–Madison 🦡. My research centers on Agentic AI and Human–Computer Interaction, with a focus on interactive agent systems and human–AI collaboration, and the goal of building AI systems that can act, reason, and collaborate in the real world. I study how agents use tools, interact with humans, and operate within complex socio-technical environments. Beyond improving model capability, I also focus on designing human-centered interaction paradigms that make AI systems reliable, understandable, and aligned with human intent.
+I'm a first year PhD student in Computer Science at UW–Madison. My research centers on Agentic AI and Human–Computer Interaction, with a focus on interactive agent systems and human–AI collaboration, and the goal of building AI systems that can act, reason, and collaborate in the real world. I study how agents use tools, interact with humans, and operate within complex socio-technical environments. Beyond improving model capability, I also focus on designing human-centered interaction paradigms that make AI systems reliable, understandable, and aligned with human intent.
 
 More broadly, I aim to develop AI agents that augment human decision-making, coordinate with people and other agents, and ultimately reshape workflows by reducing cognitive and operational burden while preserving human oversight and control.
 
