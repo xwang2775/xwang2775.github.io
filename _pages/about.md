@@ -65,4 +65,4 @@ I'm grateful to work with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Pr
 
 
 
-*For a complete list of my publications, please visit my [Publications](/publications/) page.*
+<!-- *For a complete list of my publications, please visit my [Publications](/publications/) page.* -->
