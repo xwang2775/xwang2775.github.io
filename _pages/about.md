@@ -13,44 +13,75 @@ I'm a first year PhD student in Computer Science at UW–Madison 🦡. My resear
 
 More broadly, I aim to develop AI agents that augment human decision-making, coordinate with people and other agents, and ultimately reshape workflows by reducing cognitive and operational burden while preserving human oversight and control.
 
-I'm grateful to be working with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu) for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
+My current research is supported by Honda Research Institute USA (HRI-US).
 
-📣 I'm actively looking for summer internships 2026!
+<div class="intro-status">
+  <span class="status-badge"><i class="fas fa-graduation-cap"></i> PhD @ UW–Madison (2025–)</span>
+  <span class="status-badge"><i class="fas fa-flask"></i> People &amp; Robots Lab · Honda Research</span>
+  <span class="status-badge"><i class="fas fa-briefcase"></i> Open to Summer 2026 Internships</span>
+</div>
+
+I'm grateful to be working with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu) for the mentorship of senior student [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
 
 You can find my curriculum vitae [here](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) and resume [here](https://drive.google.com/file/d/1eRLjWy8_IqefaqRYR2e8pL8wLER2pRYB/view?usp=share_link).
 
 
+## Research Areas
+
+<div class="research-grid">
+  <div class="research-card">
+    <div class="rc-icon"><i class="fas fa-robot"></i></div>
+    <div class="rc-title">Agentic AI Systems</div>
+    <p class="rc-desc">Building agents that use tools, reason over long horizons, and act in the real world — via LLMs, DPO, and RAG.</p>
+  </div>
+  <div class="research-card">
+    <div class="rc-icon"><i class="fas fa-users"></i></div>
+    <div class="rc-title">Human–AI Interaction</div>
+    <p class="rc-desc">Designing adaptive, human-centered interaction paradigms that keep people informed, in control, and aligned with AI intent.</p>
+  </div>
+  <div class="research-card">
+    <div class="rc-icon"><i class="fas fa-check-double"></i></div>
+    <div class="rc-title">Formal Verification</div>
+    <p class="rc-desc">LTL-based reasoning and step-by-step verification frameworks for consistent, trustworthy AI planning systems.</p>
+  </div>
+</div>
+
+
 ## News & Updates
 
-<div class="news-item">
-  <span class="news-date">Apr 2025</span>
-  <div class="news-content">
-    <p>Presenting at <strong>CHI '25</strong> in Yokohama, Japan. See the <a href="https://programs.sigchi.org/chi/2025/program/content/194261">poster</a> and <a href="https://arxiv.org/abs/2503.13340">paper</a> for <em>LearnMate</em>.</p>
-  </div>
-</div>
+<div class="timeline">
 
-<div class="news-item">
-  <span class="news-date">CHI '25</span>
-  <div class="news-content">
-    <p><strong><a href="https://arxiv.org/abs/2503.13340">LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support</a></strong></p>
-    <div class="news-venue">CHI EA '25 — Late-Breaking Work</div>
-    <div class="news-links">
-      <a href="https://arxiv.org/abs/2503.13340">Paper</a>
-      <a href="/publication/2024-02-18-paper-title-number-4">Project Page</a>
+  <div class="timeline-item">
+    <div class="timeline-date">Apr 2025</div>
+    <div class="timeline-content">
+      <p>Presenting at <strong>CHI '25</strong> in Yokohama, Japan. See the <a href="https://programs.sigchi.org/chi/2025/program/content/194261">poster</a> and <a href="https://arxiv.org/abs/2503.13340">paper</a> for <em>LearnMate</em>.</p>
     </div>
   </div>
-</div>
 
-<div class="news-item">
-  <span class="news-date">CHI '25</span>
-  <div class="news-content">
-    <p><strong><a href="https://arxiv.org/abs/2502.17898">VeriPlan: Integrating Formal Verification and LLMs into End-User Planning</a></strong></p>
-    <div class="news-venue">CHI 2025</div>
-    <div class="news-links">
-      <a href="https://arxiv.org/abs/2502.17898">Paper</a>
-      <a href="/publication/2024-02-17-paper-title-number-4">Project Page</a>
+  <div class="timeline-item">
+    <div class="timeline-date">CHI '25</div>
+    <div class="timeline-content">
+      <p><strong><a href="https://arxiv.org/abs/2503.13340">LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support</a></strong></p>
+      <div class="tl-venue">CHI EA '25 — Late-Breaking Work</div>
+      <div class="tl-links">
+        <a href="https://arxiv.org/abs/2503.13340">Paper</a>
+        <a href="/publication/2024-02-18-paper-title-number-4">Project Page</a>
+      </div>
     </div>
   </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">CHI '25</div>
+    <div class="timeline-content">
+      <p><strong><a href="https://arxiv.org/abs/2502.17898">VeriPlan: Integrating Formal Verification and LLMs into End-User Planning</a></strong></p>
+      <div class="tl-venue">CHI 2025</div>
+      <div class="tl-links">
+        <a href="https://arxiv.org/abs/2502.17898">Paper</a>
+        <a href="/publication/2024-02-17-paper-title-number-4">Project Page</a>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 *For a complete list of my publications, please visit my [Publications](/publications/) page.*
