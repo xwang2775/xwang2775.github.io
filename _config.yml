@@ -22,7 +22,7 @@ repository               : "xwang2775/xwang2775.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_new.png"
   name             : "Xinyu Jessica Wang"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Computer Science at the University of Wisconsin-Madison"

@@ -15,6 +15,22 @@ body {
 }
 
 /* ==========================================================================
+   Author avatar — bigger and polished
+   ========================================================================== */
+
+.author__avatar img {
+  max-width: 220px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 151, 167, 0.25) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.author__avatar img:hover {
+  box-shadow: 0 6px 28px rgba(0, 151, 167, 0.25);
+}
+
+/* ==========================================================================
    Typography: Inter font
    ========================================================================== */
 
