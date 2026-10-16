@@ -1,237 +1,132 @@
 /* ==========================================================================
-   CUSTOM STYLES
+   Minimal custom styles
+
+   Keep the visual language close to the upstream Academic Pages template:
+   white background, simple typography, a compact author profile, and
+   content-first sections.
    ========================================================================== */
 
-/* Color scheme: vibrant teal on a warm soft background */
 :root {
-  --global-link-color: #0097a7;
-  --global-link-color-hover: #006064;
-  --global-link-color-visited: #4db6c1;
-  --global-bg-color: #f7fafa;
+  --global-bg-color: #fff;
+  --global-link-color: #2f7f93;
+  --global-link-color-hover: #235f6e;
+  --global-link-color-visited: #719faa;
 }
 
 body {
-  background-color: #f7fafa;
+  background: #fff;
 }
 
-/* ==========================================================================
-   Author avatar — bigger and polished
-   ========================================================================== */
+.masthead,
+.greedy-nav,
+.masthead__menu-item {
+  background: #fff;
+}
 
+/* Crop the portrait into the circular avatar used by Academic Pages. */
 .author__avatar img {
-  max-width: 220px;
+  width: 100%;
+  max-width: 175px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 62% 58%;
+  padding: 5px;
+  border: 1px solid var(--global-border-color) !important;
   border-radius: 50%;
-  border: 3px solid rgba(0, 151, 167, 0.25) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.2s ease;
+  box-shadow: none;
 }
 
-.author__avatar img:hover {
-  box-shadow: 0 6px 28px rgba(0, 151, 167, 0.25);
+/* Keep long-form homepage content comfortable to read. */
+.page__content {
+  line-height: 1.65;
 }
-
-/* ==========================================================================
-   Typography: Inter font
-   ========================================================================== */
-
-body,
-.page__content p,
-.page__content li,
-.archive__item p,
-.author__bio {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-/* ==========================================================================
-   Section headings on content pages
-   ========================================================================== */
 
 .page__content h2 {
-  border-bottom: 2px solid var(--global-link-color) !important;
-  font-size: 1.05em;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--global-text-color);
-  padding-bottom: 0.4em;
-  margin-top: 2em;
-}
-
-/* ==========================================================================
-   Status / intro badges
-   ========================================================================== */
-
-.intro-status {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 1.2em 0 1.8em;
-}
-
-.status-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 6px 14px;
-  background: #fff;
-  border: 1px solid rgba(0, 151, 167, 0.22);
-  border-radius: 6px;
-  font-size: 0.84em;
-  color: var(--global-text-color);
-  white-space: nowrap;
-}
-
-.status-badge i {
-  color: var(--global-link-color);
-  font-size: 0.9em;
-  width: 14px;
-  text-align: center;
-}
-
-/* ==========================================================================
-   Research Interest Tags
-   ========================================================================== */
-
-.research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 1.2em 0 1.6em;
-}
-
-.research-tag {
-  display: inline-block;
-  padding: 5px 14px;
-  background: rgba(0, 151, 167, 0.07);
-  color: var(--global-link-color);
-  border: 1px solid rgba(0, 151, 167, 0.25);
-  border-radius: 20px;
-  font-size: 0.83em;
-  font-weight: 500;
-  text-decoration: none !important;
-  letter-spacing: 0.01em;
-  cursor: default;
-}
-
-/* ==========================================================================
-   News Items
-   ========================================================================== */
-
-.news-item {
-  display: flex;
-  gap: 1em;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  margin-top: 2.25em;
+  padding-bottom: 0.45em;
+  font-size: 1.25em;
+  letter-spacing: -0.01em;
+  text-transform: none;
   border-bottom: 1px solid var(--global-border-color);
-  align-items: flex-start;
 }
 
-.news-item:last-of-type {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
+.page__content ul {
+  padding-left: 1.25em;
 }
 
-.news-date {
-  flex-shrink: 0;
-  min-width: 80px;
-  font-size: 0.74em;
-  font-weight: 600;
-  color: var(--global-link-color);
-  background: rgba(0, 151, 167, 0.08);
-  border: 1px solid rgba(0, 151, 167, 0.22);
-  padding: 3px 8px;
-  border-radius: 4px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-top: 3px;
-  white-space: nowrap;
+.page__content li {
+  margin-bottom: 0.65em;
 }
 
-.news-content {
-  flex: 1;
-  font-size: 0.95em;
-  line-height: 1.55;
+.page__content a {
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.06em;
 }
 
-.news-content p {
-  margin: 0 0 0.25em;
-}
-
-.news-venue {
-  font-size: 0.85em;
-  color: var(--global-text-color-light);
-  font-style: italic;
-  margin-top: 2px;
-}
-
-.news-links {
-  display: flex;
-  gap: 1em;
-  margin-top: 0.4em;
-  flex-wrap: wrap;
-}
-
-.news-links a {
-  font-size: 0.83em;
-  font-weight: 500;
-  color: var(--global-link-color);
-  text-decoration: none;
-}
-
-.news-links a:hover {
-  text-decoration: underline;
-}
-
-/* ==========================================================================
-   Publication items
-   ========================================================================== */
-
+/* Publication lists remain plain and scan-friendly. */
 .archive__item {
-  border-left: 3px solid transparent;
-  padding-left: 1em;
-  transition: border-color 0.2s ease;
+  margin-bottom: 1.75em;
+  padding-left: 0;
+  padding-bottom: 1.5em;
+  border-left: 0;
+  border-bottom: 1px solid var(--global-border-color);
 }
 
-.archive__item:hover {
-  border-left-color: var(--global-link-color);
+.archive__item-title {
+  margin-bottom: 0.35em;
 }
 
 .archive__item-title a {
-  text-decoration: none;
   color: var(--global-text-color);
+  text-decoration: none;
 }
 
 .archive__item-title a:hover {
   color: var(--global-link-color);
-  text-decoration: none;
+}
+
+.pub-venue,
+.pub-citation {
+  color: var(--global-text-color-light);
 }
 
 .pub-venue {
-  font-size: 0.88em;
-  color: var(--global-text-color-light);
-  margin: 0.1em 0 0.3em;
+  margin: 0.1em 0 0.45em;
+  font-size: 0.9em;
+}
+
+.pub-venue a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-venue a:hover {
+  color: var(--global-link-color);
 }
 
 .pub-citation {
+  margin: 0.35em 0;
   font-size: 0.85em;
-  color: var(--global-text-color-light);
-  margin: 0.3em 0;
 }
 
 .pub-links {
-  margin-top: 0.3em;
+  margin-top: 0.45em;
 }
 
 .pub-links a {
-  font-size: 0.85em;
-  font-weight: 500;
-  margin-right: 1.2em;
+  margin-right: 1.1em;
   color: var(--global-link-color);
+  font-size: 0.85em;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .pub-links a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 924px) {
+  .author__avatar img {
+    max-width: 90px;
+  }
 }

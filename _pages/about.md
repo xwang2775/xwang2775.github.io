@@ -1,68 +1,42 @@
 ---
 permalink: /
-title: "About me"
+title: "Hi, I'm Xinyu Jessica Wang (王昕雨)!"
 author_profile: true
+excerpt: "PhD student at UW–Madison studying reliable AI agents for complex real-world environments."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I'm Xinyu Jessica Wang (王昕雨)! 👋
+I'm a second-year PhD student in Computer Science at the University of Wisconsin–Madison. My research asks how to build AI agents that can reason and act reliably in complex, real-world environments.
 
-I'm a first year PhD student in Computer Science at UW–Madison. My research centers on Agentic AI and Human–Computer Interaction, with a focus on interactive agent systems and human–AI collaboration, and the goal of building AI systems that can act, reason, and collaborate in the real world. I study how agents use tools, interact with humans, and operate within complex socio-technical environments. Beyond improving model capability, I also focus on designing human-centered interaction paradigms that make AI systems reliable, understandable, and aligned with human intent.
+I am especially interested in capabilities that transfer across **scientific**, **embodied**, and **social** settings, and in agents that remain useful, understandable, and aligned with human needs over long horizons.
 
-More broadly, I aim to develop AI agents that augment human decision-making, coordinate with people and other agents, and ultimately reshape workflows by reducing cognitive and operational burden while preserving human oversight and control.
+I am currently a research intern with [Snowflake AI Research](https://www.snowflake.com/en/blog/authors/snowflake-ai-research/), where I work on long-horizon agent optimization, including evaluation, agent harnesses, and post-training.
 
-My current research is supported by Honda Research Institute USA (HRI-US).
+I am fortunate to work with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu), with mentorship from [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io).
 
-I'm grateful to work with [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu), and for the mentorship of senior students [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io) (Check out their works—you won't regret it!). I'm incredibly thankful to the amazing people who have inspired and guided me on this journey. 🙇‍♀️🎓
+[CV](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) · [Résumé](https://drive.google.com/file/d/1eRLjWy8_IqefaqRYR2e8pL8wLER2pRYB/view?usp=share_link) · [Google Scholar](https://scholar.google.com/citations?user=tzCGmp8AAAAJ&hl=en)
 
-[CV](https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link) · [Resume](https://drive.google.com/file/d/1eRLjWy8_IqefaqRYR2e8pL8wLER2pRYB/view?usp=share_link)
+## Research Interests
 
+- **Long-horizon agents:** optimization, evaluation, harness design, and post-training for extended tasks.
+- **Grounded intelligence:** agent reasoning across scientific, embodied, and social environments.
+- **Human-centered AI:** systems that augment people while remaining understandable and responsive to human intent.
 
-## Research Areas
+## Publications
 
-<div class="research-tags">
-  <span class="research-tag">Agentic AI</span>
-  <span class="research-tag">Human-AI Interaction</span>
-  <span class="research-tag">Formal Verification</span>
-  <span class="research-tag">Education</span>
-</div>
+- **[LearnMate²: Design and Evaluation of an LLM-powered Personalized and Adaptive Support System for Online Learning](https://doi.org/10.1145/3800645.3812972).** *DIS '26.* [Paper](https://doi.org/10.1145/3800645.3812972) · [arXiv](https://arxiv.org/abs/2605.06257)
+- **[U-Define: Designing User Workflows for Hard and Soft Constraints in LLM-Based Planning](https://arxiv.org/abs/2605.02765).** *arXiv preprint.* [Paper](https://arxiv.org/abs/2605.02765)
+- **[The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break](https://arxiv.org/abs/2604.11978).** *IAEval @ NeurIPS 2026 — Oral.* [Paper](https://arxiv.org/abs/2604.11978) · [Project](https://xwang2775.github.io/horizon-leaderboard/) · [Workshop](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/IAEval)
+- **[LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support](https://arxiv.org/abs/2503.13340).** *CHI EA '25.* [Paper](https://arxiv.org/abs/2503.13340)
+- **[VeriPlan: Integrating Formal Verification and LLMs into End-User Planning](https://arxiv.org/abs/2502.17898).** *CHI '25.* [Paper](https://arxiv.org/abs/2502.17898)
 
+[View all publications →](/publications/)
 
-## News & Updates
+## News
 
-<div class="news-item">
-  <span class="news-date">Apr 2025</span>
-  <div class="news-content">
-    <p>Presenting at <strong>CHI '25</strong> in Yokohama, Japan. See the <a href="https://programs.sigchi.org/chi/2025/program/content/194261">poster</a> and <a href="https://arxiv.org/abs/2503.13340">paper</a> for <em>LearnMate</em>.</p>
-  </div>
-</div>
-
-<div class="news-item">
-  <span class="news-date">CHI '25</span>
-  <div class="news-content">
-    <p><strong><a href="https://arxiv.org/abs/2503.13340">LearnMate: Enhancing Online Education with LLM-Powered Personalized Learning Plans and Support</a></strong></p>
-    <div class="news-venue">CHI EA '25 — Late-Breaking Work</div>
-    <div class="news-links">
-      <a href="https://arxiv.org/abs/2503.13340">Paper</a>
-      <a href="/publication/2024-02-18-paper-title-number-4">Project Page</a>
-    </div>
-  </div>
-</div>
-
-<div class="news-item">
-  <span class="news-date">CHI '25</span>
-  <div class="news-content">
-    <p><strong><a href="https://arxiv.org/abs/2502.17898">VeriPlan: Integrating Formal Verification and LLMs into End-User Planning</a></strong></p>
-    <div class="news-venue">CHI 2025</div>
-    <div class="news-links">
-      <a href="https://arxiv.org/abs/2502.17898">Paper</a>
-      <a href="/publication/2024-02-17-paper-title-number-4">Project Page</a>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- *For a complete list of my publications, please visit my [Publications](/publications/) page.* -->
+- **Sep 2026:** *Agents' Last Exam* was accepted to the NeurIPS 2026 Evaluations & Datasets Track.
+- **2026:** *The Long-Horizon Task Mirage?* was selected for an oral presentation at the [IAEval Workshop at NeurIPS 2026](https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/IAEval).
+- **Jun 2026:** *LearnMate²* was published at DIS '26.
+- **Apr 2025:** Presented *LearnMate* at CHI '25 in Yokohama, Japan. [Poster details](https://programs.sigchi.org/chi/2025/program/content/194261) · [Paper](https://arxiv.org/abs/2503.13340)

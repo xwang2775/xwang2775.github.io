@@ -59,6 +59,14 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 
+        {% if page.arxivurl or page.projecturl or page.codeurl %}
+          <p class="pub-links">
+            {% if page.arxivurl %}<a href="{{ page.arxivurl }}">arXiv →</a>{% endif %}
+            {% if page.projecturl %}<a href="{{ page.projecturl }}">Project →</a>{% endif %}
+            {% if page.codeurl %}<a href="{{ page.codeurl }}">Code →</a>{% endif %}
+          </p>
+        {% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
