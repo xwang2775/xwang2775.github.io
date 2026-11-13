@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2026-long-horizon-task-mirage
 date: 2026-04-13
-venue: "IAEval Workshop at NeurIPS 2026 — Oral Presentation"
+venue: "NeurIPS 2026 Workshop on Evaluation of Interactive Agents (IAEval), Oral"
 venueurl: "https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/IAEval"
 paperurl: "https://arxiv.org/abs/2604.11978"
 projecturl: "https://xwang2775.github.io/horizon-leaderboard/"
