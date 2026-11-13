@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second-year PhD student in Computer Sciences at the University of Wisconsin–Madison, advised by [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu).
+I'm a second-year PhD student in Computer Sciences at the University of Wisconsin–Madison, advised by [Prof. Bilge Mutlu](https://bmutlu.github.io/) and [Prof. Robert Nowak](https://nowak.ece.wisc.edu), with mentorship from [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io).
 
 I study how to make AI agents reliable on long, real-world tasks: measuring where and why they break, and building the training, harnesses, and interfaces that keep them on track. I am especially interested in capabilities that carry over across **scientific**, **embodied**, and **social** settings, and in agents that stay useful and understandable to the people working with them.
 
-I am currently a research intern at [Snowflake AI Research](https://www.snowflake.com/en/blog/authors/snowflake-ai-research/), where I post-train small models on real agent trajectories for context management. I am grateful for mentorship from [Christine Lee](https://christineplee.github.io/) and [Haoyue Bai](https://haoyuebaizju.github.io).
+I am currently a research intern at [Snowflake AI Research](https://www.snowflake.com/en/blog/authors/snowflake-ai-research/), where I post-train small models on real agent trajectories for context management.
 
 <div class="quick-links">
   <a href="https://drive.google.com/file/d/1WoSETtpDUKVr9RmRANCWvNmj7TA8iufF/view?usp=drive_link">CV</a>
