@@ -11,16 +11,96 @@
   --global-link-color: #2f7f93;
   --global-link-color-hover: #235f6e;
   --global-link-color-visited: #719faa;
+  --surface-color: #f6f8f9;
+  --badge-bg: #fdf0e6;
+  --badge-text: #b4561b;
+}
+
+/* Night mode: same structure, swapped palette. Set on <html> by the
+   inline script in head/custom.html and the toggle in the masthead. */
+html[data-theme="dark"] {
+  --global-base-color: #1b1e22;
+  --global-bg-color: #1b1e22;
+  --global-border-color: #31363c;
+  --global-code-background-color: #24282d;
+  --global-code-text-color: #d6d9dc;
+  --global-fig-caption-color: #9aa1a8;
+  --global-link-color: #6cc3d5;
+  --global-link-color-hover: #9ad8e5;
+  --global-link-color-visited: #8fb9c4;
+  --global-masthead-link-color: #e3e5e8;
+  --global-masthead-link-color-hover: #ffffff;
+  --global-text-color: #d6d9dc;
+  --global-text-color-light: #949ba3;
+  --global-thead-color: #24282d;
+  --surface-color: #23272c;
+  --badge-bg: #3a2a1f;
+  --badge-text: #f0a56b;
+  color-scheme: dark;
 }
 
 body {
-  background: #fff;
+  background: var(--global-bg-color);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .masthead,
 .greedy-nav,
-.masthead__menu-item {
-  background: #fff;
+.masthead__menu-item,
+.greedy-nav .hidden-links {
+  background: var(--global-bg-color);
+}
+
+html[data-theme="dark"] .author__avatar img {
+  filter: brightness(0.92);
+}
+
+/* Day/night toggle, pinned to the right of the masthead outside the
+   greedy nav so it never collapses into the overflow menu. */
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.masthead__menu {
+  margin-right: 3em;
+}
+
+html[data-theme="dark"] .author__urls .fa-github {
+  color: var(--global-text-color);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1em;
+  height: 2.1em;
+  margin: 0;
+  padding: 0;
+  color: var(--global-masthead-link-color);
+  background: transparent;
+  border: 1px solid var(--global-border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--global-link-color);
+  border-color: var(--global-link-color);
+}
+
+.theme-toggle .fa-sun,
+html[data-theme="dark"] .theme-toggle .fa-moon {
+  display: none;
+}
+
+html[data-theme="dark"] .theme-toggle .fa-sun {
+  display: inline;
 }
 
 /* Crop the portrait into the circular avatar used by Academic Pages. */
@@ -123,6 +203,139 @@ body {
 
 .pub-links a:hover {
   text-decoration: underline;
+}
+
+/* Homepage: quick links */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1.5em 0 0.5em;
+}
+
+.page__content .quick-links a {
+  padding: 0.3em 0.9em;
+  color: var(--global-text-color);
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.page__content .quick-links a:hover {
+  color: var(--global-link-color);
+  border-color: var(--global-link-color);
+}
+
+/* Homepage: news timeline */
+.page__content .news-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.page__content .news-list li {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.55em;
+}
+
+.news-date {
+  flex: 0 0 5.2em;
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.85;
+}
+
+/* Homepage: selected publications */
+.pub-list {
+  margin-top: 1em;
+}
+
+.pub-item {
+  margin-bottom: 1.4em;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.pub-item:last-child {
+  border-bottom: 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.page__content .pub-title a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.page__content .pub-title a:hover {
+  color: var(--global-link-color);
+}
+
+.pub-authors {
+  margin-top: 0.25em;
+  color: color-mix(in srgb, var(--global-text-color) 72%, var(--global-bg-color));
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+
+.pub-authors .me {
+  color: var(--global-text-color);
+  font-weight: 600;
+}
+
+.pub-meta {
+  margin-top: 0.3em;
+  font-size: 0.88em;
+}
+
+.pub-venue-tag {
+  font-style: italic;
+}
+
+.pub-badge {
+  margin-left: 0.5em;
+  padding: 0.1em 0.55em;
+  color: var(--badge-text);
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: var(--badge-bg);
+  border-radius: 4px;
+}
+
+.pub-note {
+  margin-left: 0.5em;
+  color: var(--global-text-color-light);
+}
+
+.pub-item .pub-links {
+  margin-top: 0.4em;
+}
+
+.page__content .see-all a {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .page__content .news-list li {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .news-date {
+    flex-basis: auto;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 924px) {
